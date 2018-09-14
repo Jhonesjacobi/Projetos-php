@@ -1,0 +1,365 @@
+body{
+	background-color: #CCC;	
+}
+.container {
+	width: 1280px;
+	margin: auto;
+	box-sizing: border-box;
+	background-color: #FFF;
+	padding: 0;
+}
+.banner img{
+	width: 100%;	
+}
+.user {
+	background-color: #AAA;
+	display: flex;
+}
+aside {
+	padding-top: 7px;
+	margin-left: 20px;
+}
+aside img{
+	margin-left: 20px;
+}
+.usr{
+	margin-right: 10px;
+}
+.menu ul, .rodape ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li, .rodape li{
+	display: inline;	
+}
+.num{
+	background-color:#000;
+	color:#FFF;
+	font-size:10px;
+	font-weight:bolder;
+	padding:0 6px 2px 6px;
+	border-radius:100%;
+	position:absolute;
+	margin-top:20px;
+	margin-left:-14px;
+	cursor:default;
+}
+.menu a{
+	display: inline-block;
+	padding: 10px 20px;
+	color: #000;
+	font-size: 22px;
+}
+.menu a:hover {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #000;
+}
+.rodape{
+	padding: 100px;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+.rodape div{
+	border-bottom: solid 1px #eee;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+.rodape a{
+	display: inline-block;
+	margin: 0 10px;
+	color: #CCC;
+}
+.rodape a:hover{
+	color: #FFF;	
+}
+.principal{
+	padding: 50px 0px 50px 50px;
+}
+.produtos{
+	width: 240px;
+	display: inline-block;
+	border: solid 1px #000;
+	margin: 10px;
+	text-align: center;
+	height: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.produtos img{
+	width: 100%;
+	margin: 20px 0;	
+}
+.produtos h5{
+	color: #090;
+	font-weight: bold;
+}
+.produto{
+	width: 800px;
+	margin: auto;
+}
+.produto h1, .produto h2 {
+	text-align: center;	
+}
+.produto img, .produto button{
+	display: block;
+	margin: 60px auto;
+}
+.login a{
+	display: block;
+	color: #FFF;
+	font-size: 20px;
+	margin: 20px;
+}
+.cadastro {
+	margin-right: 50px;
+}
+.cadastro *{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+.erro{
+	color: #C00;
+}
+.completa input{
+	display: block;
+	margin: 20px auto;
+	width: 300px;	
+}
+.prods{
+	width:720px;
+	margin:auto;
+}
+.prods th{
+	border-bottom:solid 2px #000;
+	font-size:18px;	
+}
+.prods td{
+	border-bottom:solid 1px #666;
+}
+.prods th:last-child,.prods td:last-child{
+	text-align:right;
+	width:120px;
+}	
+.total{
+	text-align:right;
+	font-weight:bolder;
+	font-size:18px;
+	color:#090;
+}
+.continuar{
+	display:block;
+	margin:auto;
+	margin-top:70px;
+}
+.last{
+	border-bottom:none !important;
+}
+.fim{
+	color:#000;
+	margin-top:10px;
+	font-weight:bolder;
+}
+.perfil{
+	display:flex;
+}
+.editar_perfil, .compras_realizadas{
+	flex:1;
+	padding:10px;
+}
+.atualiza div{
+	margin:15px 0;
+}
+.atualiza label{
+	font-weight:bolder;
+	margin-right:15px;	
+	width:150px;
+	display:inline-block;
+	text-align:right!important;
+}
+.form-inline input{
+	width:300px!important;
+}
+.alt{
+	display:block;
+	margin:30px auto 0 auto;
+}
+.ok{
+	font-weight:bolder;
+	text-align:center;
+	margin-top:20px;
+}
+.center{
+	text-align:center;
+	background-color:#909;
+	color:#FFF;
+	padding:10px 0;
+	margin:0 50px 30px 0;
+}
+.compras{
+	display:flex;
+}
+.compras div{
+	flex:1;
+}
+.negrito{
+	font-weight:bolder;
+}
+.endereco{
+	margin:10px 0;
+	padding:20px;
+	width:300px;
+	border:solid 1px #666;
+	background-color:#FFC;
+}
+.val{
+	display:inline-block;
+	width:90px;
+	text-align:right;
+	color:#090;
+}
+.total_compra{
+	display:block;
+	width:344px;
+	text-align:center;
+	font-weight:bolder;
+	color:#040;
+	margin-top:40px;
+}
+.titulo2{
+	font-weight:bolder;
+	margin-bottom:20px;
+}
+.detalhes h2{
+	color:#500;
+	text-align:center;
+	font-weight:bolder;
+}
+.detalhes h3{
+	text-align:center;
+}
+.detalhes h4{
+	text-align:center;
+	color:#006;
+}	
+.n{
+	font-weight:bolder;
+}	
+.meio{
+	display:block;
+	margin:40px auto 0 auto;
+}
+.compra{
+	display:block;
+	margin:50px auto 0 auto;
+}	
+.comprar{
+	display:block;
+	width:80%;
+	margin:20px;
+	padding:20px;
+	box-sizing:border-box;
+	border:solid 1px #333;
+	background-color:#f9f9f9;
+}
+.compra h4{
+	text-align:center;
+	font-weight:bolder;
+	color:#A00;
+}
+.verde{
+	text-align:center;
+	color:0A0;
+	font-weight:bold;
+}
+
+/* configuração da página admin */
+.admin h1{
+	text-align: center;
+	background-color: #606;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 32px;
+	padding: 10px;
+}
+.admin table{
+	margin: 30px auto;
+	text-align: center;
+	background-color: #FFF;
+}
+.tabela1 td{
+	font-size: 22px;
+	padding: 40px 0;
+	width: 33%;
+}
+.admin button {
+	display: block;
+	margin: 20px auto;	
+}
+.tabela1 img{
+	display: block;
+	margin: auto;
+	width: 96px;	
+}
+.buttons{
+	text-align: center;	
+}
+.inline {
+	display: inline !important;
+}
+
+.tabela2 th {
+	background-color: #333;
+	color: #FFC;
+	padding: 8px 0;	
+	border: solid 1px #000;
+}
+.tabela2 td{
+	padding: 4px 0;
+}
+.tabela2 tr:nth-child(even) {  
+  background: linear-gradient(to bottom, #d6f9ff 0%,#9ee8fa 100%);
+}
+.tabela2 tr:nth-child(odd) {  
+  background:  linear-gradient(to bottom, #fcfff4 0%,#e9e9ce 100%);
+}
+.cadastrar {
+	padding: 50px;
+	display: flex;
+}
+.esquerda, .direita {
+	flex: 1;
+	margin: 30px;
+}
+.esquerda *{
+	margin-bottom: 15px;
+	font-size: 20px;
+	padding: 4px 8px;
+}
+.direita textarea{
+	resize: none;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.login {
+	margin: 80px auto;
+	width: 320px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #009;
+	border: solid 3px #000;
+	border-radius: 8px;
+}
+.login input{
+	margin: 15px 0;	
+}
+
+
+
+
+
+
